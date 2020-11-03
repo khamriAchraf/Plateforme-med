@@ -18,12 +18,19 @@ a {
 }
 
 a:hover {
-  color: #3291e6;
+  color:#32821F;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  margin:20px;
+  
+}
+h1 {
+  color: #32821F;
+  font-weight: 700;
+  line-height: 56px;
 }
 
 /*--------------------------------------------------------------
@@ -45,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1977cc;
+  border: 6px solid#32821F;
   border-top-color: #d1e6f9;
   border-radius: 50%;
   width: 60px;
@@ -91,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #1977cc;
+  background: #32821F;
   color: #fff;
   transition: all 0.4s;
 }
@@ -126,11 +133,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #1977cc;
+  color: #32821F;
 }
 
 #topbar .contact-info i {
-  color: #1977cc;
+  color: #32821F;
   padding-right: 4px;
   margin-left: 15px;
 }
@@ -148,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1977cc;
+  color: #32821F;
 }
 
 #topbar .social-links a:first-child {
@@ -163,8 +170,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
-  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  top: 0px;
+  box-shadow: 0px 2px 15px rgba(50, 130, 31, 0.1);
 }
 
 #header.header-scrolled {
@@ -230,8 +237,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #1977cc;
-  border-color: #1977cc;
+  color: #32821F;
+  border-color: #32821F;
 }
 
 .nav-menu .drop-down ul {
@@ -269,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #1977cc;
+  color: #32821F;
 }
 
 .nav-menu .drop-down > a:after {
@@ -315,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .appointment-btn {
   margin-left: 25px;
-  background: #1977cc;
+  background: #32821F;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -354,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #1977cc;
+  color: #32821F;
 }
 
 .mobile-nav {
@@ -389,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1977cc;
+  color: #32821F;
   text-decoration: none;
 }
 
@@ -450,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: white;
   background-size: cover;
   position: relative;
   margin-bottom: -200px;
@@ -462,11 +469,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
-  color: #2c4964;
+  color: #32821F;
 }
 
 #hero h2 {
@@ -487,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1977cc;
+  background: #32821F;
 }
 
 #hero .btn-get-started:hover {
@@ -529,7 +535,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
@@ -568,7 +574,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #1977cc;
+  background: #32821F;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -641,8 +647,8 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us .content {
-  padding: 30px;
-  background: #1977cc;
+  padding: 0px;
+  background: #32821F;
   border-radius: 4px;
   color: #fff;
 }
@@ -671,7 +677,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #1977cc;
+  color: #32821F;
   background: #fff;
 }
 
@@ -680,9 +686,18 @@ section {
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 40px 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   width: 100%;
+  height: 100%;
 }
+
+@media (max-width: 1196px) {
+  .why-us .icon-boxes .icon-box {
+    min-width: none;
+    height: 120%;
+  }
+} 
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
@@ -1735,4 +1750,23 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+
+
+.row {
+  padding-top: 10px;
+}
+
+@media (max-width: 1196px) {
+  .row {
+    padding-top: 2px;
+  }
+}
+
+.classes {
+  min-width: 83.5vw;
+}
+
+.year {
+  color: #32821F !important;
 }

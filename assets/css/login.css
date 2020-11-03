@@ -50,7 +50,7 @@ html {
 }
 .login_btn {
 	width: 100%;
-	background: #1977cc !important;
+	background: #32821F !important;
     color: white !important;
     border-radius: 25px;
 }
@@ -62,7 +62,7 @@ html {
 	padding: 0 2rem;
 }
 .input-group-text {
-	background: #1977cc !important;
+	background: #32821F !important;
 	color: white !important;
 	border: 0 !important;
 	border-radius: 0.25rem 0 0 0.25rem !important;
@@ -109,7 +109,7 @@ a:hover{
   }
   
   #topbar .contact-info i {
-    color: #1977cc;
+    color:#32821F;
     padding-right: 4px;
     margin-left: 15px;
   }
@@ -119,7 +119,7 @@ a:hover{
   }
   
   #topbar .social-links a {
-    color: #437099;
+    color: #32821F;
     padding-left: 15px;
     display: inline-block;
     line-height: 1px;
@@ -154,8 +154,8 @@ a:hover{
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #1977cc;
-    border-top-color: #d1e6f9;
+    border: 6px solid #32821F;
+    border-top-color:white;
     border-radius: 50%;
     width: 60px;
     height: 60px;
